@@ -1,0 +1,7 @@
+
+2023-09-14 21:15:45,973 ERROR [main] o.e.MyClass [MyClass.java:9] - ASDSDA123
+
+2023-09-14 21:16:37,160 ERROR [main] o.e.MyClass [MyClass.java:12] - Виникла помилка ділення на нуль: / by zero
+java.lang.ArithmeticException: / by zero
+	at org.example.MyClass.doSomething(MyClass.java:10)
+	at org.example.Main.main(Main.java:6)
