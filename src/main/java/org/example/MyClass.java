@@ -10,6 +10,10 @@ public class MyClass {
             int a = 5 / 0;
         } catch (ArithmeticException e) {
             logger.error("Виникла помилка ділення на нуль: " + e.getMessage(), e);
+            logger.debug("This is a debug message");
+            logger.warn("This is a warning message");
+            logger.info("This is an info message");
+
         }
     }
 }
